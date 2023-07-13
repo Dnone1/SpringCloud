@@ -1,0 +1,7 @@
+server:
+  port: 3051
+
+feign:
+  sentinel:
+    # openfeign整合sentinel
+    enabled: true

@@ -1,0 +1,14 @@
+server:
+  port: 3051
+
+spring:
+  application:
+    name: product-service
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 172.16.19.35:8848
+        discovery:
+          username: nacos
+          password: nacos
